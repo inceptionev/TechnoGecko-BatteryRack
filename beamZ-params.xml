@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamWithValueList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>20080502</version>
+  <parameterTypes>
+    <ParamType>
+      <typeName>Inventor</typeName>
+      <typeCode>0</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>String</typeName>
+      <typeCode>1</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>Boolean</typeName>
+      <typeCode>2</typeCode>
+    </ParamType>
+  </parameterTypes>
+  <parameters>
+    <ParamWithValue>
+      <name>moduleW</name>
+      <typeCode>mm</typeCode>
+      <value>168 mm</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>moduleD</name>
+      <typeCode>mm</typeCode>
+      <value>48 mm * 6 ul</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>shelfT</name>
+      <typeCode>mm</typeCode>
+      <value>7/8"</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>lw</name>
+      <typeCode>mm</typeCode>
+      <value>25.4 mm</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>sw</name>
+      <typeCode>mm</typeCode>
+      <value>25.4 mm</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>shelfP</name>
+      <typeCode>mm</typeCode>
+      <value>300 mm</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>lt</name>
+      <typeCode>mm</typeCode>
+      <value>1/8"</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>shelfW</name>
+      <typeCode>mm</typeCode>
+      <value>moduleW * 4 ul + 50 mm</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>shelfD</name>
+      <typeCode>mm</typeCode>
+      <value>moduleD + 50 mm</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>shelfMargin</name>
+      <typeCode>mm</typeCode>
+      <value>1.0 mm</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>beamXW</name>
+      <typeCode>mm</typeCode>
+      <value>shelfW + 2 ul * shelfMargin + 2 ul * sw + 2 ul * lt</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>s_t</name>
+      <typeCode>mm</typeCode>
+      <value>1/8"</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>rivetD</name>
+      <typeCode>mm</typeCode>
+      <value>3/16"</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>rivetHoleD</name>
+      <typeCode>mm</typeCode>
+      <value>0.191 in</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>beamZW</name>
+      <typeCode>mm</typeCode>
+      <value>shelfD + 2 ul * shelfMargin + 2 ul * sw + 2 ul * lt</value>
+      <comment />
+      <isKey>true</isKey>
+    </ParamWithValue>
+  </parameters>
+</ParamWithValueList>
